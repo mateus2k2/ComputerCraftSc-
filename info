@@ -1,0 +1,5 @@
+/data get entity @e[type=item,limit=1,sort=nearest]
+/data get entity @s SelectedItem
+
+The feedback of the commands you type in game is written into the game output log.
+"C:\Games\Minecraft\PrismLauncher-8.0\instances\ATM9 - 0.2.56\.minecraft\logs\latest.log"

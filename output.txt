@@ -1,0 +1,273 @@
+{
+  tags = {},
+  slot = 0,
+  name = "mahoutsukai:morgan",
+  maxStackSize = 1,
+  fingerprint = "0D31F8CC0D55B6FFAAD40B2441AA9DCE",
+  count = 1,
+  nbt = {
+    Enchantments = {
+      {
+        id = "minecraft:sharpness",
+        lvl = 5,
+      },
+      {
+        id = "minecraft:sweeping",
+        lvl = 3,
+      },
+      {
+        id = "minecraft:smite",
+        lvl = 5,
+      },
+      {
+        id = "ensorcellation:vorpal",
+        lvl = 3,
+      },
+      {
+        id = "minecraft:looting",
+        lvl = 4,
+      },
+    },
+    mahou_r = 255,
+    mahou_r2 = 0,
+    mahou_b2 = 0,
+    mahoutsukai_morgan_innate_cap = 5000,
+    mahou_g2 = 0,
+    Damage = 3,
+    mahoutsukai_morgan_attack = 5000,
+    mahou_g = 50,
+    mahou_b = 50,
+    RepairCost = 63,
+  },
+  displayName = "[Morgan]",
+}
+{
+  tags = {
+    "minecraft:item/minecraft:cluster_max_harvestables",
+  },
+  slot = 1,
+  name = "mekanism:meka_tool",
+  maxStackSize = 1,
+  fingerprint = "19BBDACFAD591AF80A21927904DF153D",
+  count = 1,
+  nbt = {
+    mekData = {
+      modules = {
+        [ "mekanism:silk_touch_unit" ] = {},
+        [ "mekanism:excavation_escalation_unit" ] = {
+          renderHUD = 1,
+          amount = 4,
+          excavation_mode = 1,
+          enabled = 1,
+          handleModeChange = 1,
+        },
+        [ "mekanism:shearing_unit" ] = {
+          enabled = 0,
+          amount = 1,
+        },
+        [ "mekanism:attack_amplification_unit" ] = {
+          enabled = 1,
+          renderHUD = 1,
+          attack_damage = 2,
+          amount = 4,
+        },
+        [ "mekanism:farming_unit" ] = {
+          enabled = 1,
+          farming_radius = 1,
+          amount = 4,
+        },
+        [ "mekanism:energy_unit" ] = {
+          enabled = 1,
+          amount = 8,
+        },
+      },
+      Enchantments = {
+        {
+          id = "minecraft:silk_touch",
+          lvl = 1,
+        },
+      },
+      EnergyContainers = {
+        {
+          stored = "4058683700",
+          Container = 0,
+        },
+      },
+    },
+  },
+  displayName = "[Meka-Tool]",
+}
+{
+  tags = {},
+  slot = 2,
+  name = "enderio:staff_of_travelling",
+  maxStackSize = 1,
+  fingerprint = "0FB7C5102ACE97A521CCF0714411E0F6",
+  count = 1,
+  nbt = {
+    Energy = {
+      EnergyStored = 80000,
+      MaxEnergyUse = 100000,
+      MaxEnergyStored = 100000,
+    },
+  },
+  displayName = "[Staff Of Travelling]",
+}
+{
+  tags = {
+    "minecraft:item/waystones:warp_stones",
+  },
+  slot = 5,
+  name = "waystones:warp_stone",
+  maxStackSize = 1,
+  fingerprint = "B303D96A3CAA4D01EFD4AD9D79A0ED6F",
+  count = 1,
+  nbt = {
+    Damage = 0,
+  },
+  displayName = "[Warp Stone]",
+}
+{
+  tags = {},
+  slot = 6,
+  name = "rftoolsutility:advanced_charged_porter",
+  maxStackSize = 1,
+  fingerprint = "A8A4ED211443D134A90349254C5E595B",
+  count = 1,
+  nbt = {
+    target2 = 3,
+    target1 = 2,
+    target0 = 1,
+    target = 1,
+    target4 = 5,
+    target3 = 4,
+    Energy = 495215,
+    Damage = 0,
+  },
+  displayName = "[Advanced Charged Porter]",
+}
+{
+  tags = {},
+  slot = 7,
+  name = "tiab:time_in_a_bottle",
+  maxStackSize = 1,
+  fingerprint = "F9DB4007DBEBC9A2F828CACA9DF8B9BF",
+  count = 1,
+  nbt = {
+    storedTime = 3214980,
+    totalAccumulatedTime = 4506780,
+  },
+  displayName = "[Time in a bottle]",
+}
+{
+  tags = {
+    "minecraft:item/dankstorage:dank_storages",
+  },
+  slot = 8,
+  name = "dankstorage:dank_7",
+  maxStackSize = 64,
+  fingerprint = "31C38522A1A16D572C4E6BD2F1079F43",
+  count = 1,
+  nbt = {
+    settings = {
+      selectedSlot = 2,
+      mode = 2,
+      [ "dankstorage:frequency" ] = 0,
+      construction = 1,
+    },
+  },
+  displayName = "[Dank 7]",
+}
+{
+  tags = {
+    "minecraft:item/ars_elemental:curio_bag_item",
+    "minecraft:item/curios:body",
+  },
+  slot = 9,
+  name = "ironjetpacks:jetpack",
+  maxStackSize = 1,
+  fingerprint = "3988BF6FFA222E79C1E0FA1B76B042F1",
+  count = 1,
+  nbt = {
+    Hover = 0,
+    Throttle = 0.2,
+    Id = "ironjetpacks:unobtainium",
+    Energy = 92867500,
+    Engine = 0,
+  },
+  displayName = "[Unobtainium Jetpack]",
+}
+{
+  tags = {
+    "minecraft:item/curios:curio",
+    "minecraft:item/ars_elemental:curio_bag_item",
+  },
+  slot = 10,
+  name = "refinedstorageaddons:wireless_crafting_grid",
+  maxStackSize = 1,
+  fingerprint = "6EEAE41FB879021BBF964CC189456F4F",
+  count = 1,
+  nbt = {
+    NodeX = -1782,
+    NodeZ = -2798,
+    NodeY = 124,
+    SortingDirection = 1,
+    TabSelected = -1,
+    TabPage = 0,
+    SortingType = 0,
+    ViewType = 0,
+    Inventory_1 = {
+      {
+        id = "minecraft:iron_ingot",
+        Count = 1,
+        Slot = 0,
+      },
+      {
+        id = "minecraft:white_stained_glass",
+        Count = 1,
+        Slot = 1,
+      },
+      {
+        id = "minecraft:iron_ingot",
+        Count = 1,
+        Slot = 2,
+      },
+      {
+        id = "minecraft:iron_ingot",
+        Count = 1,
+        Slot = 3,
+      },
+      {
+        id = "minecraft:iron_ingot",
+        Count = 1,
+        Slot = 5,
+      },
+      {
+        id = "minecraft:gold_ingot",
+        Count = 1,
+        Slot = 7,
+      },
+    },
+    SearchBoxMode = 0,
+    Dimension = "minecraft:overworld",
+    Energy = 1658,
+    Size = 0,
+  },
+  displayName = "[Wireless Crafting Grid]",
+}
+{
+  tags = {
+    "minecraft:item/bookshelf:books",
+    "minecraft:item/forge:manuals",
+    "minecraft:item/forge:books",
+  },
+  slot = 35,
+  name = "occultism:dictionary_of_spirits",
+  maxStackSize = 1,
+  fingerprint = "B72BFBCACEBE5EBABD7A35CE57770CEC",
+  count = 1,
+  nbt = {
+    [ "modonomicon:book_id" ] = "occultism:dictionary_of_spirits",
+  },
+  displayName = "[Dictionary of Spirits]",
+}
